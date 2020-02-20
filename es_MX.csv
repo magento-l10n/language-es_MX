@@ -482,7 +482,6 @@ Bestsellers,"Mejor vendidos"
 Customer,Cliente
 Guest,Visitante
 Items,Artículos
-Total,Totals
 "Lifetime Sales","Ventas de por Vida"
 "Average Order","Promedio de pedidos"
 Average,Promedio
@@ -1593,7 +1592,7 @@ Properties,Propiedades
 "Manage Labels","Administrar etiquetas"
 Searchable,Buscable
 "Delete Selected Group","Eliminar grupo seleccionado"
-"You are about to delete all products in this attribute set. Are you sure you want to do that?","Estás a punto de borrar todos los productos en este conjunto de atributos. ¿Está seguro de que desea hacerlo?"
+"You are about to delete all products in this attribute set. Are you sure you want to do that?","Está a punto de borrar todos los productos en este conjunto de atributos. ¿Está seguro de que desea hacerlo?"
 "New Set Name","Nuevo nombre de conjunto"
 "Edit Attribute Set '%1'","Editar el conjunto de atributos ""%1"""
 Empty,Vacío
