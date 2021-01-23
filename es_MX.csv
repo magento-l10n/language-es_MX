@@ -5,7 +5,7 @@ None,Ninguno
 "You need more permissions to apply some of the rule updates.","Necesita más permisos para aplicar algunas de las actualizaciones de reglas."
 "Please assign this entity to a store view.","Por favor asigne esta entidad a una vista de la tienda."
 "You can create orders only in an active store.","Sólo puedes crear pedidos en una tienda activada."
-"Please assign this item to a store view.","Por favor, asigna una vista de tienda a éste elemento."
+"Please assign this item to a store view.","Por favor, asigna una vista de tienda a este elemento."
 "You need more permissions to save this item.","Necesita más permisos para guardar este artículo."
 "You need more permissions to delete this item.","Necesita más permisos para eliminar este artículo."
 "You need more permissions to view this item.","Necesita más permisos para eliminar este artículo."
@@ -468,10 +468,10 @@ options,opciones
 "%s of %s selected","%s de %s seleccionados"
 "B2B Features","Características B2B"
 "Invalid Form Key. Please refresh the page.","Clave de formulario inválida. Por favor actualice la página."
-"You entered an invalid Secret Key. Please refresh the page.","Has introducido una clave secreta inválida. Por favor actualice la página."
+"You entered an invalid Secret Key. Please refresh the page.","Ha introducido una clave secreta inválida. Por favor actualice la página."
 "Cache Storage Management","Administración de almacenamiento de caché"
 "Flush Magento Cache","Vaciar la caché de Magento"
-"The cache storage may contain additional data. Are you sure that you want to flush it?","El almacenamiento de caché puede contener datos adicionales. ¿Estás seguro de que deseas eliminarlo?"
+"The cache storage may contain additional data. Are you sure that you want to flush it?","El almacenamiento de memoria caché puede contener datos adicionales. ¿Está seguro de que desea eliminarla?"
 "Flush Cache Storage","Vaciar almacenamiento de caché"
 Invalidated,Invalidado
 Orders,Pedidos
