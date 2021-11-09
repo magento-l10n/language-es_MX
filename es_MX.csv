@@ -408,8 +408,22 @@ Environment,Entorno
 options,opciones
 "Select all","Seleccionar todo"
 "Deselect all","Anular todas las selecciones"
+Selected,Seleccionado
+"We couldn't find any records.","No pudimos encontrar ningún registro."
+" Item(s)"," artículo(s)"
+"Items ","Artículos "
+" to "," para"
+" of "," de"
+Page,Página
+Previous,Anterior
+"You're currently reading page","Actualmente estás leyendo la página"
+Next,Siguiente
+Show,Mostrar
+"per page","por página"
 "Please Select","Por favor seleccione"
 "%s of %s selected","%s de %s seleccionados"
+"Search by keyword","Buscar por palabra clave"
+"This is a required field.","Este campo es obligatorio."
 "B2B Features","Características B2B"
 "Invalid Form Key. Please refresh the page.","Clave de formulario inválida. Por favor actualice la página."
 "You entered an invalid Secret Key. Please refresh the page.","Ha introducido una clave secreta inválida. Por favor actualice la página."
@@ -525,7 +539,6 @@ To,Hasta
 "Date selector","Selector de fecha"
 "[ deleted ]","[ eliminado ]"
 "Select All","Seleccionar Todo"
-"We couldn't find any records.","No pudimos encontrar ningún registro."
 "Add New","Agregar nuevo"
 "Invalid export type supplied for grid export block","Tipo de exportación no válido suministrado para exportación bloque de red"
 Export,Exportar
@@ -632,8 +645,6 @@ password,contraseña
 "Sign Out","Cerrar sesión"
 "About the calendar","Acerca del calendario"
 "Go Today",Hoy
-Previous,Anterior
-Next,Siguiente
 Time,Zeit
 Hour,Hora
 Minute,Minuto
@@ -658,7 +669,6 @@ Thumbnail,Miniatura
 "Additional Settings","Configuración adicional"
 "records found","registros encontrados"
 selected,seleccionado
-"per page","por página"
 "Previous page","Página anterior"
 "of %1","de %1"
 "Next page","Página siguiente"
@@ -1767,7 +1777,6 @@ Prev,Anterior
 "Items %1-%2 of %3","Artículos %1-%2 de %3"
 "%1 Item","%1 artículo"
 "%1 Items","%1 artículos"
-Show,Mostrar
 "Sort By","Ordenar por"
 "Set Ascending Direction","Fijar Dirección Ascendente"
 "Set Descending Direction","Fijar Dirección Descendente"
@@ -8905,7 +8914,6 @@ Scope:,Alcance:
 "This is a demo store. No orders will be fulfilled.","Esta es una tienda de demostración. No se aceptaran pedidos."
 "Items %1 to %2 of %3 total","Artículos %1 al %2 de %3 totales"
 "%1 Item(s)","%1 artículo(s)"
-Page,Página
 "You're currently reading page","Actualmente estás leyendo página"
 "We don't recognize this file extension.","No reconocemos esta extensión de archivo."
 "1 column","1 columna"
@@ -8959,7 +8967,6 @@ Translations,Traducciones
 Filters,Filtros
 "The file upload field is disabled.","El campo de subida de archivos está deshabilitado."
 "was not uploaded","no fue subido"
-Selected,Seleccionado
 "Select All on This Page","Seleccionar todo en esta página"
 "Deselect All on This Page","Anular la selección en esta página"
 On,En
@@ -8971,7 +8978,6 @@ Off,Apagado
 "You have successfully saved your edits.","Ha guardado exitosamente sus cambios."
 "There are {placeholder} messages requires your attention.","Hay {placeholder} mensajes que requieren su atención."
 "You haven't selected any items!","¡No ha seleccionado ningún artículo!"
-"Search by keyword","Buscar por palabra clave"
 Keyword,"Palabra clave"
 "Please enter more or equal than {0} symbols.","Introduce más o igual que símbolos {0}."
 "Please enter less or equal than {0} symbols.","Introduce más o igual que símbolos {0}."
@@ -9710,6 +9716,8 @@ Captured,Capturado
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Su reembolso #%creditmemo_id para el pedido #%order_id"
 "Backup options","Opciones de copia de seguridad"
 Warning,Advertencia
+"Insert Variable","Insertar Variable"
+"The widget %1 is no longer available. Select a different widget.","El widget %1 ya no está disponible. Seleccione un widget diferente."
 "Recent items","Elementos recientes"
 "Show all...","Mostrar todo..."
 "Please enter a number greater 0 in this field.","Introduce un número mayor que 0 en este campo."
@@ -9717,8 +9725,11 @@ Warning,Advertencia
 "Please specify Url.","Especifica la URL."
 "Method %s does not exist on jQuery.decorate","Método %s no existe en jQuery.decorate"
 "Please wait...","Por favor, espere..."
+"All %1","Todos %1"
 Translate,Traducir
 "Please remove invalid characters: {0}.","Por favor, elimine los caracteres inválidos: {0}."
+"Forbidden extensions has been used. Avoid usage of ","Se han utilizado extensiones prohibidas. Evitar el uso de "
+"First character must be letter.","El primer carácter debe ser una letra."
 "Please select one of the options above.","Por favor seleccione una de las opciones de arriba."
 "Please select a file.","Selecciona un archivo."
 "Please select one of the options.","Selecciona una de las opciones."
