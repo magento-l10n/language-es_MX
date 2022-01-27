@@ -12,6 +12,7 @@ None,Ninguno
 "This item needs to be assigned to a store view. Assign item and try again.","Este elemento necesita estar asignado a una vista de la tienda. Asigne un elemento y vuelva a intentarlo."
 "More permissions are needed to save this item.","Se necesitan más permisos para eliminar este artículo."
 "More permissions are needed to delete this item.","Se necesitan más permisos para eliminar el elemento."
+"Not allowed to edit the category's design attributes","No se permite editar los atributos de diseño de la categoría"
 "At least one website or store group needs to be selected. Select and try again.","Debe seleccionarse al menos un sitio web o grupo de tienda. Seleccione e inténtelo de nuevo."
 "More permissions are needed to set All Scopes to a Role.","Se necesitan más permisos para establecer todos los ámbitos en un Rol."
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","El ID de la Página Web ""%1"" es incorrecto. Verifica el ID de la página web e inténtelo de nuevo."
@@ -244,6 +245,9 @@ No,"No 	"
 "Command ""%1"" was not found.","Comando ""%1"" no encontrado."
 "The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Los datos no son válidos. Introduzca los datos como una cadena o datos que se puedan convertir en una cadena y vuelva a intentarlo."
 "The data is invalid. Enter the data as a string and try again.","Los datos no son válidos. Introduzca los datos como una cadena y vuelva a intentarlo."
+"The data is invalid. Use a valid cipher method and try again.","Los datos no son válidos. Utiliza un método de cifrado válido y vuelva a intentarlo."
+"Enter the encryption key and try again.","Introduzca la clave de cifrado e inténtelo de nuevo."
+"The ""%1"" source doesn't exist.","El origen de ""%1"" no existe."
 "These arguments can't be empty ""%1""","Estos argumentos no pueden quedar vacíos ""%1"""
 "Cannot find predefined integration user!","¡No se puede encontrar el usuario de integración predefinido!"
 "File is not ready yet.","El archivo todavía no esta preparado."
@@ -261,11 +265,24 @@ Analytics,Análisis
 Configuration,Configuración
 "Business Intelligence","Inteligencia de Negocio"
 "BI Essentials","Esenciales BI"
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","Este servicio proporciona un conjunto dinámico de informes con información valiosa sobre su negocio.
+                Puede acceder a sus informes de forma segura en un panel personalizado fuera del panel de administración haciendo clic en
+                ""Ir al enlace de informes avanzados"".</br>Para más información, vea nuestro <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
+                términos y Condiciones</a>."
 "Advanced Reporting Service","Servicio de informes avanzados"
 "Time of day to send data","Hora del día para enviar los datos"
+"Industry Data","Datos de la industria"
 Industry,"Tipo de negocio"
 "In order to personalize your Advanced Reporting experience, please select your industry.","Para personalizar la experiencia en informes avanzados, por favor seleccione el tipo de negocio."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Obtén mas ideas con Magento Business Intelligence</strong>"
+"Magento Business Intelligence provides you with a simple and clear path to
+                    becoming more data driven.</br> Learn more about <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","Magento Business Intelligence le proporciona un camino sencillo y claro para 
+                    convertirse en más datos.</br> Más información sobre <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a>tiers."
 "Auto Parts","Piezas de automóvil"
 "Baby/Children’s Apparel, Gear and Toys","Ropa de bebés y niños, engranaje y juguetes"
 "Beauty and Cosmetics","Belleza y cosmética"
@@ -284,11 +301,17 @@ Industry,"Tipo de negocio"
 "Pet Goods","Productos para mascotas"
 "Pharma and Medical Devices","Industria farmacéutica y dispositivos médicos"
 "Technology B2B","Tecnología B2B"
+Other,Otro
 Done,Hecho
 Retry,Reintentar
 "'Action Details - #' .","'Detalles de la acción - #'."
 "%1 item(s) have been scheduled for update.""","%1 de elemento(s) han sido catalogados para actualizacion"
 "Bulk Actions Log","Registro de acciones en volumen"
+"Bulk uuid %bulkUuid not exist","Bulk uuid %bulkUuid no existe"
+"Topic %1","Tema %1"
+"Something went wrong while processing the request.","Algo salió mal durante el procesamiento de la solicitud."
+"Error processing %key element of input data","Error al procesar el elemento %key de datos de entrada"
+"Sorry, something went wrong during product prices update. Please see log for details.","Lo sentimos, algo salió mal durante la actualización de los precios del producto. Por favor, consulte el registro para más detalles."
 "%1 item(s) are currently being updated.","%1 elemento(s) esta siendo actualizado."
 "Task ""%1"": ","Tarea ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 de elemento(s) han sido catalogados para actualizacion."
@@ -303,7 +326,9 @@ Dismiss,Descartar
 ", %1 failed to update",", %1 no pudo actualizar"
 "Something went wrong.","Algo salió mal."
 "Action Log","Registro de acciones"
+Report,Informe
 "Bulk Actions","Acciones masivas"
+"Action Logs","Registro de acciones"
 "Days Saved in Log","Días guardados en registro"
 "Description of Operation","Descripción de la operación"
 Summary,Resumen
@@ -316,6 +341,7 @@ Status,Estatus
 "Dismiss All Completed Tasks","Descartar Todas las Tareas Completadas"
 "Action Details - #","Detalles de la acción - #"
 "Number of Records Affected","Número de registros afectados"
+"The role wasn't found for the user. Verify the role and try again.","El rol no se encontró para el usuario. Verifique el rol y vuelva a intentarlo."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Algo salió mal mientras se compilaba una lista de recursos permitidos. Puedes encontrar más información en el log de excepciones."
 "You created the order.","Creó el pedido."
 "Order saving error: %1","Error al almacenar la orden: %1"
@@ -2162,8 +2188,15 @@ Priority,Prioridad
 Relevance,Relevancia
 "Search results for: '%1'","Resultados de búsqueda para: '%1'"
 "Minimum Search query length is %1","Longitud mínima de consulta de búsqueda es %1"
+"Search term is empty","El término de búsqueda está vacío"
+"Enter a search term and try again.","Introduzca un término de búsqueda e inténtelo de nuevo."
 "%1 and greater","%1 y mayor"
 "up to %1","hasta %1"
+"Default product collection strategy not found","Estrategia de colección de productos por defecto no encontrada"
+"An error occurred. For details, see the error log.","Se ha producido un error. Para más detalles, vea el registro de errores."
+"The bucket doesn't exist.","La búsqueda no existe."
+"Disable Notice","Desactivar Aviso"
+"Test Exception","Excepción de la prueba"
 "Search Settings","Ajustes de búsqueda"
 "Please enter a valid price range.","Por favor, introduzca un rango de precios válido."
 "Advanced Search","Búsqueda avanzada"
@@ -2176,8 +2209,15 @@ Relevance,Relevancia
 "Catalog Search","Catálogo de búsquedas"
 "Popular Search Terms","Términos de búsqueda populares"
 "Minimal Query Length","Longitud mínima de búsqueda"
+"This value must be compatible with the corresponding setting in the configured search engine. Be aware: a low query length limit may cause the performance impact.","Este valor debe ser compatible con la configuración correspondiente en el motor de búsqueda configurado. Tenga en cuenta: un límite de longitud de consulta bajo puede causar impacto en el rendimiento."
 "Maximum Query Length","Longitud máxima de consulta"
+"This value must be compatible with the corresponding setting in the configured search engine.","Este valor debe ser compatible con la configuración correspondiente en el motor de búsqueda configurado."
+"Number of top search results to cache","Número de primeros resultados de búsquedas en caché"
+"Number of popular search terms to be cached for faster response. Use “0” to cache all results after a term is searched for the second time.","Número de términos de búsqueda populares a ser cacheados para una respuesta más rápida. Utilice “0” para cachear todos los resultados después de que se busque un término por segunda vez."
+"Autocomplete Limit","Limite de autocompletar"
+"Enable EAV Indexer","Habilitar indexador EAV"
 "Rebuild Catalog product fulltext search index","Reconstruir catálogo Artículo todo el texto búsqueda índice"
+"The ""%1"" attribute is required. Enter and try again.","Se necesita el atributo ""%1"". Introducelo y pruebe de nuevo."
 "The requested price is not found.","No se encontró el precio solicitado."
 "Update %1 from %2 to %3.","Actualización %1 de %2 a %3."
 View/Edit,Ver/Editar
@@ -5065,7 +5105,6 @@ items,artículos
 "All Users","Todos los usuarios"
 "Admin Actions Log","Registro de acciones de administrador"
 "Admin Actions Archive","Archivo de acciones de administrador"
-Report,Informe
 "actions' 'label","acciones ' etiqueta"
 "%1 & applied","%1 y aplicado"
 "Tax Rates Import","Importación de tarifas de impuestos"
@@ -5087,7 +5126,6 @@ IP-Address,"Dirección IP"
 "Related Changes","Cambios relacionados"
 Logging,"Iniciar sesión"
 Archive,Archivo
-"Action Logs","Registro de acciones"
 "Admin Actions Log Archiving","Archivado de registro de acciones de administrador"
 "Log Entry Lifetime, Days","Tiempo de vida de entrada de registro, Días"
 "Log Archiving Frequency","Frecuencia de archivado de registros"
@@ -5702,6 +5740,7 @@ Subscribers,Suscriptores
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Lo sentimos, pero el administrador no permite al suscripción de invitados. Por favor, <a href=""%1"">registrate</a>."
 "This email address is already subscribed.","Esta dirección de correo electrónico ya está suscrita."
 "Something went wrong with the subscription.","Algo fallo con la suscripción."
+"The confirmation request has been sent.","La solicitud de confirmación ha sido enviada."
 "Thank you for your subscription.","Gracias por suscribirse."
 "You unsubscribed.","Ha cancelado la suscripción."
 "Something went wrong while unsubscribing you.","Algo ha fallado al tratar de desuscribirte."
@@ -8137,7 +8176,6 @@ Pricing,Precios
 "Cannot delete shared catalog with id %1","No se puede eliminar el catálogo compartido con id %1"
 "Assign Categories to Shared Catalog","Asignar categorías a un catálogo compartido"
 "Something went wrong while scheduling operations.","Algo salió mal al programar operaciones."
-"Sorry, something went wrong during product prices update. Please see log for details.","Lo sentimos, algo salió mal durante la actualización de los precios del producto. Por favor, consulte el registro para más detalles."
 "Assign custom prices to selected products","Asignar precios personalizados a productos seleccionados"
 "Could not save shared catalog.","No se pudo guardar el catálogo compartido."
 "You must enable category permissions for the following products: %skus.","Debe habilitar los permisos de categoría para los siguientes productos: %skus."
@@ -8415,7 +8453,6 @@ Yearly,Anualmente
 entity_type,entidad_tipo
 "Delete Update","Eliminar actualización"
 Test,Prueba
-"Test Exception","Excepción de la prueba"
 "This action is unavailable","Esta acción no esta disponible"
 Calendar,Calendario
 "Belongs to ","Pertenece a "
@@ -8425,6 +8462,7 @@ Staging,"Puesta en escena"
 Includes,Incluye
 "Current store is not active.","Tienda actual no está activa."
 "Requested store is inactive","La tienda solicitada esta inactiva"
+"The requested store cannot be found. Please check the request and try again.","No se encuentra la tienda solicitada. Por favor, compruebe la solicitud e inténtelo de nuevo."
 "Environment emulation nesting is not allowed.","No se permite el anidamiento de emulación del entorno."
 "The following stores are not associated with a root category: ' . . '. For the store to be displayed in the storefront, it must be associated with a root category.","Las siguientes tiendas no están asociadas a una categoría raíz: '. . '. Para que la tienda se muestre en el escaparate, debe asociarse con una categoría raíz."
 "Group with the same code","Grupo con el mismo código"
@@ -9341,7 +9379,6 @@ Large,Grande
 "Service type does not match","El tipo de servicio no coincide"
 Merchandise,Mercancía
 Gift,Regalo
-Other,Otro
 "Secure Gateway URL","URL de Gateway seguro"
 Machinable,Manufacturable
 "Add New Variable","Agregar nueva variable"
